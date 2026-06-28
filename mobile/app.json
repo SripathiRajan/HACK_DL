@@ -1,0 +1,71 @@
+{
+  "expo": {
+    "name": "DriveLegal",
+    "slug": "drivelegal-mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.sripathirajan.drivelegal",
+      "infoPlist": {
+        "NSMicrophoneUsageDescription": "DriveLegal needs microphone access for voice search."
+      }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "985ec079-a085-44a6-a262-b61c7d293f9b"
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "usesCleartextTraffic": true,
+      "package": "com.sripathirajan.drivelegalmobile",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyDTfY-7KE8S7fhS2CaxXK0-QZFRWuWCZnc"
+        }
+      },
+      "permissions": [
+        "android.permission.ACCESS_COARSE_LOCATION",
+        "android.permission.ACCESS_FINE_LOCATION",
+        "android.permission.RECORD_AUDIO"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font",
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Allow DriveLegal to use your location for traffic rules and zone detection."
+        }
+      ],
+      [
+        "expo-av",
+        {
+          "microphonePermission": "Allow DriveLegal to access your microphone for voice search."
+        }
+      ],
+      "expo-web-browser"
+    ],
+    "scheme": "drivelegal"
+  }
+}

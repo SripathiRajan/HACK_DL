@@ -1,0 +1,31 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "TN_RAM_TEST_001",
+        "zone_type": "school_zone",
+        "state": "TN",
+        "city": "Ramanathapuram",
+        "rule_set_id": "RULE_GEN_SCHOOL_ZONE",
+        "speed_limit_kmh": 30,
+        "active_hours": "ALL",
+        "fine_multiplier": 2.0,
+        "source": "Local Testing Zone"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [79.35, 9.10],
+            [79.45, 9.10],
+            [79.45, 9.20],
+            [79.35, 9.20],
+            [79.35, 9.10]
+          ]
+        ]
+      }
+    }
+  ]
+}

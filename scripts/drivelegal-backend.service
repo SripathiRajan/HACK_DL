@@ -1,0 +1,23 @@
+[Unit]
+Description=DriveLegal FastAPI Backend
+After=network.target ollama.service
+Wants=ollama.service
+
+[Service]
+Type=simple
+User=ubuntu
+Group=ubuntu
+WorkingDirectory=/home/ubuntu/drivelegal
+Environment="PATH=/home/ubuntu/drivelegal/.venv/bin:/usr/local/bin:/usr/bin:/bin"
+ExecStart=/home/ubuntu/drivelegal/.venv/bin/python -m uvicorn backend.main:app --host 127.0.0.1 --port 8000 --workers 2
+Restart=always
+RestartSec=5
+StandardOutput=journal
+StandardError=journal
+
+# Security
+NoNewPrivileges=true
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target

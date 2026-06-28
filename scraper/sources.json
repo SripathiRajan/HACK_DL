@@ -1,0 +1,291 @@
+{
+  "sources": [
+    {
+      "state": "ALL",
+      "name": "Parivahan Sewa",
+      "url": "https://parivahan.gov.in/parivahan//en/content/mvd-fines",
+      "type": "table",
+      "enabled": true
+    },
+    {
+      "state": "TN",
+      "name": "Tamil Nadu Transport",
+      "url": "https://tnsta.gov.in/transport/compounding.do",
+      "type": "table",
+      "enabled": true
+    },
+    {
+      "state": "KA",
+      "name": "Karnataka Traffic Police",
+      "url": "https://ksp.karnataka.gov.in",
+      "type": "table",
+      "enabled": true
+    },
+    {
+      "state": "MH",
+      "name": "Maharashtra Traffic",
+      "url": "https://mahatrafficechallan.gov.in",
+      "type": "table",
+      "enabled": true
+    },
+    {
+      "state": "DL",
+      "name": "Delhi Traffic Police",
+      "url": "https://traffic.delhipolice.gov.in",
+      "type": "table",
+      "enabled": true
+    },
+    {
+      "state": "INT-UK",
+      "name": "UK Gov Fines",
+      "url": "https://www.gov.uk/penalty-points-endorsements",
+      "type": "table",
+      "enabled": true
+    },
+    {
+      "state": "INT-US-NY",
+      "name": "New York DMV",
+      "url": "https://dmv.ny.gov/tickets/penalties-multiple-traffic-violations",
+      "type": "table",
+      "enabled": true
+    },
+    {
+      "state": "AP",
+      "name": "Andhra Pradesh Transport",
+      "url": "https://aptransport.org/",
+      "type": "table",
+      "enabled": true
+    },
+    {
+      "state": "AR",
+      "name": "Arunachal Pradesh Transport",
+      "url": "https://arunachalpradesh.gov.in/",
+      "type": "table",
+      "enabled": true
+    },
+    {
+      "state": "AS",
+      "name": "Assam Transport",
+      "url": "https://transport.assam.gov.in/",
+      "type": "table",
+      "enabled": true
+    },
+    {
+      "state": "BR",
+      "name": "Bihar Transport",
+      "url": "https://state.bihar.gov.in/transport/CitizenHome.html",
+      "type": "table",
+      "enabled": true
+    },
+    {
+      "state": "CG",
+      "name": "Chhattisgarh Transport",
+      "url": "http://cgtransport.gov.in/",
+      "type": "table",
+      "enabled": true
+    },
+    {
+      "state": "GA",
+      "name": "Goa Transport",
+      "url": "https://goatransport.gov.in/",
+      "type": "table",
+      "enabled": true
+    },
+    {
+      "state": "GJ",
+      "name": "Gujarat Transport",
+      "url": "https://rtogujarat.gov.in/",
+      "type": "table",
+      "enabled": true
+    },
+    {
+      "state": "HR",
+      "name": "Haryana Transport",
+      "url": "https://haryanatransport.gov.in/",
+      "type": "table",
+      "enabled": true
+    },
+    {
+      "state": "HP",
+      "name": "Himachal Pradesh Transport",
+      "url": "https://himachal.nic.in/",
+      "type": "table",
+      "enabled": true
+    },
+    {
+      "state": "JH",
+      "name": "Jharkhand Transport",
+      "url": "http://jhtransport.gov.in/",
+      "type": "table",
+      "enabled": true
+    },
+    {
+      "state": "KL",
+      "name": "Kerala Motor Vehicles",
+      "url": "https://mvd.kerala.gov.in/",
+      "type": "table",
+      "enabled": true
+    },
+    {
+      "state": "MP",
+      "name": "Madhya Pradesh Transport",
+      "url": "http://transport.mp.gov.in/",
+      "type": "table",
+      "enabled": true
+    },
+    {
+      "state": "MN",
+      "name": "Manipur Transport",
+      "url": "https://manipur.gov.in/",
+      "type": "table",
+      "enabled": true
+    },
+    {
+      "state": "ML",
+      "name": "Meghalaya Transport",
+      "url": "https://megtransport.gov.in/",
+      "type": "table",
+      "enabled": true
+    },
+    {
+      "state": "MZ",
+      "name": "Mizoram Transport",
+      "url": "https://transport.mizoram.gov.in/",
+      "type": "table",
+      "enabled": true
+    },
+    {
+      "state": "NL",
+      "name": "Nagaland Transport",
+      "url": "https://nagaland.gov.in/",
+      "type": "table",
+      "enabled": true
+    },
+    {
+      "state": "OD",
+      "name": "Odisha Transport",
+      "url": "http://odishatransport.gov.in/",
+      "type": "table",
+      "enabled": true
+    },
+    {
+      "state": "PB",
+      "name": "Punjab Transport",
+      "url": "http://punjabtransport.org/",
+      "type": "table",
+      "enabled": true
+    },
+    {
+      "state": "RJ",
+      "name": "Rajasthan Transport",
+      "url": "https://transport.rajasthan.gov.in/",
+      "type": "table",
+      "enabled": true
+    },
+    {
+      "state": "SK",
+      "name": "Sikkim Transport",
+      "url": "https://sikkim.gov.in/",
+      "type": "table",
+      "enabled": true
+    },
+    {
+      "state": "TS",
+      "name": "Telangana Transport",
+      "url": "https://transport.telangana.gov.in/",
+      "type": "table",
+      "enabled": true
+    },
+    {
+      "state": "TR",
+      "name": "Tripura Transport",
+      "url": "https://transport.tripura.gov.in/",
+      "type": "table",
+      "enabled": true
+    },
+    {
+      "state": "UP",
+      "name": "Uttar Pradesh Transport",
+      "url": "http://uptransport.upsdc.gov.in/",
+      "type": "table",
+      "enabled": true
+    },
+    {
+      "state": "UK",
+      "name": "Uttarakhand Transport",
+      "url": "https://transport.uk.gov.in/",
+      "type": "table",
+      "enabled": true
+    },
+    {
+      "state": "WB",
+      "name": "West Bengal Transport",
+      "url": "https://transport.wb.gov.in/",
+      "type": "table",
+      "enabled": true
+    },
+    {
+      "state": "INT-AU-NSW",
+      "name": "Transport for NSW (Australia)",
+      "url": "https://www.transport.nsw.gov.au/",
+      "type": "table",
+      "enabled": true
+    },
+    {
+      "state": "INT-CA-ON",
+      "name": "Ontario Ministry of Transportation",
+      "url": "https://www.ontario.ca/page/ministry-transportation",
+      "type": "table",
+      "enabled": true
+    },
+    {
+      "state": "INT-EU-DE",
+      "name": "Germany BMVI",
+      "url": "https://www.bmvi.de/",
+      "type": "table",
+      "enabled": true
+    },
+    {
+      "state": "INT-EU-FR",
+      "name": "France S\u00e9curit\u00e9 Routi\u00e8re",
+      "url": "https://www.securite-routiere.gouv.fr/",
+      "type": "table",
+      "enabled": true
+    },
+    {
+      "state": "INT-AS-JP",
+      "name": "Japan MLIT",
+      "url": "https://www.mlit.go.jp/en/",
+      "type": "table",
+      "enabled": true
+    },
+    {
+      "state": "INT-AS-SG",
+      "name": "Singapore LTA",
+      "url": "https://www.lta.gov.sg/",
+      "type": "table",
+      "enabled": true
+    },
+    {
+      "state": "INT-AF-ZA",
+      "name": "South Africa Dept of Transport",
+      "url": "https://www.transport.gov.za/",
+      "type": "table",
+      "enabled": true
+    },
+    {
+      "state": "INT-SA-BR",
+      "name": "Brazil SENATRAN",
+      "url": "https://www.gov.br/infraestrutura/pt-br/senatran",
+      "type": "table",
+      "enabled": true
+    },
+    {
+      "state": "INT-UAE-DXB",
+      "name": "Dubai RTA",
+      "url": "https://www.rta.ae/",
+      "type": "table",
+      "enabled": true
+    }
+  ]
+}
