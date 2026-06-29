@@ -1206,3 +1206,6 @@ Language preference persists across sessions via Async Storage.
 
 ## API Documentation
 See `/docs` for swagger UI.
+
+### License
+MIT License
