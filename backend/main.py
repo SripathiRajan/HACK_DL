@@ -138,6 +138,7 @@ async def transcribe_audio(request: TranscribeRequest = Body(...)):
         return {"status": "error", "text": "", "message": "SpeechRecognition not installed. Run: pip install SpeechRecognition pydub"}
 
     try:
+        # Pre-process base64 audio string
         # Decode base64 audio
         audio_data = base64.b64decode(request.audio_base64)
         mime = request.mime_type or "audio/webm"
