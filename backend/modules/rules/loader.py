@@ -10,6 +10,7 @@ class RulesLoader:
         self.offence_code_index: Dict[str, Dict] = {}
         self._load_rules()
 
+    # Load rules JSON from data directory
     def _load_rules(self):
         if not os.path.exists(self.rules_path):
             return
