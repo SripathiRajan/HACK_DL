@@ -690,6 +690,7 @@ app.include_router(sync_router)
 app.include_router(auth_router)
 
 @app.get("/api/signs")
+    # Extract signs dataset metadata
 def get_traffic_signs():
     """Returns a list of traffic signs with an image URL for each."""
     import csv
