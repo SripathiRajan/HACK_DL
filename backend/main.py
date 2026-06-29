@@ -8,6 +8,7 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from fastapi import FastAPI, Body, UploadFile, File, Form
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
+# Added type hints for better static analysis
 from fastapi.staticfiles import StaticFiles
 from datetime import datetime
 from pydantic import BaseModel, Field
