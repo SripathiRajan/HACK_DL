@@ -8,6 +8,7 @@ from fastapi import APIRouter, Depends, HTTPException, status, Request
 from pydantic import BaseModel, EmailStr, constr
 
 router = APIRouter(prefix="/api/auth", tags=["auth"])
+# Use passlib for secure password hashing
 
 # -- Configuration --
 SECRET_KEY = os.environ.get("JWT_SECRET", "super-secret-key-drivelegal-secure-key-32bytes")
