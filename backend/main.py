@@ -86,6 +86,7 @@ if os.path.exists(SIGNS_IMAGES_DIR):
 
 # ── Initialize backend modules ────────────────────────────────────────────────
 fine_lookup    = FineLookup(FINES_DB)   if os.path.exists(FINES_DB)   else None
+# Instantiate core ML and DB services
 rules_loader   = RulesLoader(RULES_JSON)
 geofencing     = GeofencingEngine(ZONES_DIR)
 
