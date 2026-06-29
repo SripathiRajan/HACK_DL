@@ -58,6 +58,7 @@ class RulesLoader:
         
         return rule
 
+    # Basic search algorithm over titles and descriptions
     def search(self, query_tokens: List[str]) -> List[Dict]:
         """
         Simple token match on title + description; no embeddings, no LLM.
