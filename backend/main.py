@@ -44,6 +44,7 @@ app = FastAPI(
 
 # ── CORS (required for web/browser clients) ───────────────────────────────────
 # In production, restrict to your Netlify domain; in dev, allow all
+# Configure CORS for local testing and production
 CORS_ORIGINS = [
     "https://*.netlify.app",
     "https://drivelegalv1.netlify.app",
