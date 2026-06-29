@@ -1203,3 +1203,6 @@ Language preference persists across sessions via Async Storage.
   <p><strong>Developed to make roads safer and laws more accessible.</strong></p>
   <p>Built with ❤️ by <a href="https://github.com/Dakshankarthic">Dakshan Karthic</a></p>
 </div>
+
+## API Documentation
+See `/docs` for swagger UI.
