@@ -302,6 +302,7 @@ import time
 _BRIEFS_CACHE = {"data": None, "timestamp": 0}
 
 @app.get("/briefs")
+# RSS feed parser for Google News integration
 def get_briefs():
     """
     Fetch live news about Indian traffic rules/road safety, and use Ollama/Gemini to summarize.
